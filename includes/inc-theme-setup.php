@@ -41,8 +41,6 @@ add_shortcode('post_author', function () {
     // post author id
     $author_id = $post->post_author;
 
-    echo $post_id;
-
     // author name
     $author_name = get_the_author_meta('display_name', $author_id);
 
