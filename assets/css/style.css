@@ -121,6 +121,25 @@ a:focus {
     border-color: var(--wp--preset--color--primary-500);
 }
 
+.wpcf7-form .wpcf7-submit {
+    color: var(--wp--preset--color--white);
+    height: 52px;
+    padding: 0 1rem;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1rem;
+    font-family: var(--wp--preset--font-family--primary);
+    border-radius: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--wp--preset--color--primary-500);
+    background-color: var(--wp--preset--color--primary-500);
+}
+
+.wpcf7-form .wpcf7-submit:hover,
+.wpcf7-form .wpcf7-submit:focus {
+    background-color: var(--wp--preset--color--black);
+}
+
 /* Homepage Sticky Post */
 .homepage-sticky-post.wp-block-query .wp-block-post-terms.homepage-sticky-post__category a {
     color: var(--wp--preset--color--black);
