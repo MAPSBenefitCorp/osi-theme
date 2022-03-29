@@ -327,18 +327,6 @@ a:focus {
     color: var(--wp--preset--color--primary-500)
 }
 
-.wp-block-social-links.footer-social-menu li.wp-social-link.wp-social-link-twitter a::after {
-    content: "Twitter"
-}
-
-.wp-block-social-links.footer-social-menu li.wp-social-link.wp-social-link-facebook a::after {
-    content: "Facebook"
-}
-
-.wp-block-social-links.footer-social-menu li.wp-social-link.wp-social-link-instagram a::after {
-    content: "Instagram"
-}
-
 /* Sidebar */
 .sidebar.wp-block-template-part {
     font-size: var(--wp--preset--font-size--base);
