@@ -29,4 +29,4 @@ jobs:
             --exclude='.git'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST_PROD }}
           REMOTE_USER: ${{ secrets.REMOTE_USER_PROD }}
-          TARGET: /home/wp_axcmcq/stemaf15dreampress.stage.site/wp-content/themes/osi-theme/
+          TARGET: /home/wp_axcmcq/blogopensourceorg.stage.site/wp-content/themes/osi-theme/
